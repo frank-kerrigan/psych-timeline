@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Document1 }  from "./Components/Document1";
+import { Wundt }  from "./Components/Wundt";
 import { Timeline } from "./Components/Timeline";
-import { Document2 } from "./Components/Document2";
+import { James } from "./Components/James";
 
 function App() {
   return (
     
       <Router>
           <Routes>        
-              <Route exact path="/Document1" element={<Document1 />} />
-              <Route exact path="/Document2" element={<Document2 />} />
+              <Route exact path="/Wundt" element={<Wundt />} />
+              <Route exact path="/James" element={<James />} />
               <Route exact path="/*" element={<Timeline />} />
           </Routes>
       </Router>
