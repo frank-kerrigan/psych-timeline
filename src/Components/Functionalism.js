@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Document2 = () => {
+export const Functionalism = () => {
     const style = {
         fontSize: '16px',
         fontWeight: 'bold',

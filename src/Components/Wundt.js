@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Document1 = () => {
+export const Wundt = () => {
     const style = {
         fontSize: '16px',
         fontWeight: 'bold',
