@@ -5,6 +5,7 @@ import { Timeline } from "./Components/Timeline";
 import { James } from "./Components/James";
 import { Functionalism } from "./Components/Functionalism";
 
+
 function App() {
       return (
     
@@ -13,6 +14,7 @@ function App() {
              <Route exact path="/Wundt" element={<Wundt />} />
               <Route exact path="/James" element={<James />} />
               <Route exact path="/Functionalism" element={<Functionalism />} />
+             
               <Route exact path="/*" element={<Timeline />} />
           </Routes>
       </Router>

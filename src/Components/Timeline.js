@@ -10,6 +10,10 @@ import { DateLabel } from "./DateLabel";
 
 
 
+
+
+
+
 export const Timeline = () => {
     return (
 
@@ -19,6 +23,9 @@ export const Timeline = () => {
             <h2 style={{ textAlign: "center" }}>
                 This text is aligned center by adding inline css
             </h2>
+
+           
+
 
 
             
@@ -130,11 +137,40 @@ export const Timeline = () => {
                     <h4 className="vertical-timeline-element-subtitle"> 
                        Developed the <b>'Law of Effect'</b> </h4>
                     <p>Founder of <b><i>Educational Psychology</i></b> 
-                    <br></br>Best known for his experiments involving cats learning to escape from boxes.
+                    <br></br>Explaining how behaviours are learned. 
+                        <br></br>Best known for his experiments involving cats learning to escape from boxes.
+                        
+                       Influenced <b><i>Behaviourist Psychology, especially B.F. Skinner's theory of Operant Conditioning</i></b> <br></br>
+                        
+                        <br></br><a href="https://www.britannica.com/biography/Edward-B-Titchener" target='_blank'> Edward B. Titchener </a>
+                        <br></br><a href="https://www.simplypsychology.org/structuralism.html#Titcheners-Structuralism" target='_blank'> Structualism and Titchener </a>
                         <br></br>
+                        <a href="/Wundt" > Willhelm Wundt Doc </a>
+
+                    </p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--left"
+                    contentStyle={{ background: 'rgb(140, 179, 217)', color: '#000' }}//white
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//blue
+
+                    date={<DateLabel text="1923 " />}
+                    
+                    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#8cb3d9' }}//White bg blue Icon 
+                    icon={<FaBrain />}
+                >
+
+                    <h3 className="vertical-timeline-element-title">Gestalt Movement</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Wertheimer, Kohler & Koffka 
+                       Rejects <b><i>Reductionism/Structualism</i></b>In favour of an Holistic approach.</h4>
+                    <p><b>"The whole is greater than the sum of its parts" - Aristotle.<i></i></b>
+                    <br></br> How the mind interprets & organises information.
+                        <br></br>Principles: <b><i>Similarity, Pragnanz, Porximity, Continuity, Closure & Common Region</i></b>
                         
                         <br></br>
-                        Influenced <b><i>Behaviourist Psychology, especially B.F. Skinner's theory of Operant Conditioning</i></b> <br></br>
+                        Influenced many areas of Psychology including:
+                        <b><i>Cognitive Psychology, Social Psychology & Educational Psychology.</i></b> <br></br>
                         
                         <br></br><a href="https://www.britannica.com/biography/Edward-B-Titchener" target='_blank'> Edward B. Titchener </a>
                         <br></br><a href="https://www.simplypsychology.org/structuralism.html#Titcheners-Structuralism" target='_blank'> Structualism and Titchener </a>
@@ -147,7 +183,7 @@ export const Timeline = () => {
                 <VerticalTimelineElement
                    
                     className="vertical-timeline-element--right"
-                    date={<DateLabel text="PsychoAnalytic School" />}
+                    date={<DateLabel text="Psychoanalytic School" />}
                     
                     iconStyle={{ background: 'rgb(204, 204, 255)', color: '#fff' }}//lilac bg White Icon 
                     icon={<FaBrain />}
@@ -156,7 +192,7 @@ export const Timeline = () => {
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--right"
+                    className="vertical-timeline-element--right" 
                     contentStyle={{ background: 'rgb(204, 204, 255)', color: '#000' }}//lilac
                     contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//white
                     date={<DateLabel text="1885 - 1939" />}
@@ -164,12 +200,58 @@ export const Timeline = () => {
                     icon={<FaBrain />}
                     
                 >
-                    <h3 className="vertical-timeline-element-title">Sigmund Freud, PsychoAnalysis </h3>
-                    <h4 className="vertical-timeline-element-subtitle">Focussed on the Unconscious Mind, Dreams, </h4>
-                    <p>
-                        Published theory on 'Interpretation of Dreams' <br></br>
+                    <h3 className="vertical-timeline-element-title">Sigmund Freud, PsychoAnalysis  <a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a></h3>
+                    <h4 className="vertical-timeline-element-subtitle">Focussed on the Unconscious Mind, Dreams, Psychoanalysis</h4>
+                   
+                    <ol><b>Psychoanalytical Approaches:</b>        
+                            <li>Behaviour is influenced by the unconscious mind</li>
+                                <ol><li>Talking Therapy (Anna O)</li>
+                                <li>Free Association</li>
+                                <li>Dream Analysis</li>
+                                </ol>
+                            <li>Instincts (add doc)</li>
+                                <ol><li>Life Instinct: Eros</li>
+                                <li>Death Instinct: Thanatos</li>
+                                <li>Dream Analysis</li>
+                                </ol>
+                            <li>Personality Structure</li>
+                                <ol><li>Conscious, Pre-Conscious, Unconscious (add doc)</li>
+                                <li>ID, Ego, SuperEgo</li></ol>
+                            <li>Psychosexual Stages (add doc)</li>
+                                    <ol><li>Oral (0-18 mnths)</li>
+                                        <li>Anal (18-36 mnths)</li>
+                                        <li>Phallic (3-6 yrs)</li>
+                                        <ol><li>Oedipus Complex</li>
+                                            <li>Electra Complex</li></ol>
+                                        <li>Latent (6-12 yrs)</li>
+                                        <li>Genital </li>
+                                    </ol>
+
+                    </ol>
+                            
+                    <p> 
+                            
+                        Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria</i></b>.
+                    <a href="/Wundt" > Anna O </a> ,{/*Add doc on Anna O */}
+                    <a href="/Wundt" > Psychoanalysis</a> {/*Add doc on Psychoanalysis*/}
+                        Published 'Interpretation of Dreams' in 1900. <i>"the royal road to the unconscious.</i>
+                        <a href="/Wundt" > Dreams </a><br></br> {/*Add doc on dream analysis */}
+                        
+                        Freud developed the Iceberg analogy to explain the personality.
+                        <a href="../Images/freud_iceberg.jpg" > Iceberg</a> {/*Add doc on Psychoanalysis*/}
+                        <img src={require('../../src/Images/freud_iceberg.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/>  <br></br>Personality consists of: <b>ID, Ego, and SuperEgo</b>
+                            <a href="/Wundt" > Personality Doc </a><br></br> {/*Add doc on Personality Theory */}
+                           Psychosexual Theory: Explain Personality<br></br> 
+                           <a href="/Wundt" > Psychosexual Theory Doc </a><br></br> {/*Add doc on dream analysis */}{/*Add doc on Psychosexual Theory */}
+                        
+                        
+                                {/*Add Iceberg image */} 
+                        
+
+
                         Had a huge influence in the development of Human Behaviour and the Psyche.<br></br>
-                        <a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a>
+                        
 
 
                     </p>
@@ -184,10 +266,10 @@ export const Timeline = () => {
                     icon={<FaBrain />}
                     
                 >
-                    <h3 className="vertical-timeline-element-title">Carl Jung, Analytic Psychology </h3>
-                    <h4 className="vertical-timeline-element-subtitle">Based on Individual psyche, Collective Consciousness & Psychological Complexes </h4>
+                    <h3 className="vertical-timeline-element-title">Carl Jung, Analytic Psychology </h3> 
+                    <h4 className="vertical-timeline-element-subtitle">Based on Individual Psyche, Collective Consciousness & Psychological Complexes </h4>
                     <p>
-                        Published theory on 'Interpretation of Dreams' <br></br>
+                        <br></br>
                         Had a huge influence in the development of Human Behaviour and the Psyche.<br></br>
                         <a href="https://www.verywellmind.com/what-are-jungs-4-major-archetypes-2795439" target='_blank'>Jung</a>
 
@@ -199,16 +281,26 @@ export const Timeline = () => {
                     className="vertical-timeline-element--right"
                     contentStyle={{ background: 'rgb(204, 204, 255)', color: '#000' }}//lilac
                     contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//white
-                    date={<DateLabel text="1885 - 1939" />}
+                    date={<DateLabel text="1937" />}
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#ccccff' }}// white bg lilsc icon
                     icon={<FaBrain />}
                 >
-                    <h3 className="vertical-timeline-element-title">Karen Horney, PsychoAnalysis </h3>
-                    <h4 className="vertical-timeline-element-subtitle">Focussed on the Unconscious Mind, Dreams, </h4>
-                    <p>
-                        Published theory on 'Interpretation of Dreams' <br></br>
-                        Had a huge influence in the development of Human Behaviour and the Psyche.<br></br>
-                        <a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a>
+                    <h3 className="vertical-timeline-element-title">Karen Horney, Psychoanalysis </h3>
+                    <h4 className="vertical-timeline-element-subtitle">One of the first females trained in Psychoanalysis. </h4>
+                    <p> Horney believed that the world around us, cultural, helps shape psychological traits, especially neurosis. <br></br> 
+                        1937 Developed 'Basic Anxiety' - Four neurotic trends: <i>Affection, Submissiveness, Power & Withdrawal.</i> 
+                        {/*Add doc Karen Horney study on Anxiety  */}
+                        Opposed to Freud opinion that theses traits were instincual.
+                        1941 - She was barred from the NY Psychoanalytic Institute after clashing with fellow psychologists over Freuds theories.
+                        Criticised Freud's views on women being inferior to men. <br></br>
+                        In <b><i>"The Flight from Womanhood"</i></b> Horney disagreed with Freud's theory that women suffer from <b><i>'Penis Envy'</i></b> <br></br>
+                        and suggested that men suffered from 'Womb Envy & Breast'
+                        <br></br>Influenced <b><i>Erik Erikson's</i></b> theory of <b><i>Basic Mistrust</i></b> leading to <b>Psychosocial Psychology.</b>
+                        <br></br>Had a huge influence in the diagnosis of neurotic conditions.
+                        Influenced <b>Psychoanalytic Theory, Cultural and Humanistic Psychology & Feminine Psychology </b><br></br> 
+                        
+                        
+                        <br></br><a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a>{/*Add doc on Karen Horney */}
 
 
                     </p>
