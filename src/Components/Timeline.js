@@ -22,9 +22,9 @@ export const Timeline = () => {
 
 
             
-            <VerticalTimeline>
+        <VerticalTimeline>
 
-            <VerticalTimelineElement
+                <VerticalTimelineElement
                     className="vertical-timeline-element--left"                 
                     date={<DateLabel text="Early Foundations" />}
                     
@@ -45,7 +45,7 @@ export const Timeline = () => {
                     icon={<FaBrain />}
                 >
 
-                    <h3 className="vertical-timeline-element-title">Willhelm Wundt Father of Modern Psychology<br></br>Created the first laboratory for Experimental Psychology in Leipzig, Germany </h3>
+                    <h3 className="vertical-timeline-element-title">Willhelm Wundt Father of Modern Psychology. Created the first laboratory for Experimental Psychology in Leipzig, Germany </h3>
                     <h4 className="vertical-timeline-element-subtitle"> 
                        Founded <b>Structualism</b> with Edward.B Titchener, Europe </h4>
                     <p>Using <b>Introspection:</b> Examined the structure of the mind by breaking it down to its basic elements of feelings, emotions, thoughts, etc. - 
@@ -289,57 +289,12 @@ export const Timeline = () => {
                     icon={<FaBrain />}
                 >
                     <h3 className="vertical-timeline-element-title">B.F Skinner </h3>
-                    <h4 className="vertical-timeline-element-subtitle">Radical Behaviourism. <br></br> Developed is the father of Operant Conditioning </h4>
+                    <h4 className="vertical-timeline-element-subtitle">Radical Behaviourism.  Developed is the father of Operant Conditioning </h4>
                     <p>
                         <br></br>
                         <a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a>
 
 
-                    </p>
-                </VerticalTimelineElement>
-
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
-                    date={<DateLabel text="1888" />}
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    icon={<FaBrain />}
-                >
-                    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-                    <p>
-                        Strategy, Social Media
-                    </p>
-                </VerticalTimelineElement>
-
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(255, 255, 255)', color: '#000' }}//white
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}//blue
-                    date={<DateLabel text="1888" />}
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    icon={<FaBrain />}
-                >
-                    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-                    <p>
-                        Creative Direction, User Experience, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
-                    date={<DateLabel text="1888" />}
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    icon={<FaBrain />}
-                >
-                    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-                    <p>
-                        Creative Direction, Visual Design
                     </p>
                 </VerticalTimelineElement>
 
