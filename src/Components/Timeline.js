@@ -202,11 +202,34 @@ export const Timeline = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Sigmund Freud, PsychoAnalysis  <a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a></h3>
                     <h4 className="vertical-timeline-element-subtitle">Focussed on the Unconscious Mind, Dreams, Psychoanalysis</h4>
-                    <p> <ul>
+                   
+                    <ol><b>Psychoanalytical Approaches:</b>        
                             <li>Behaviour is influenced by the unconscious mind</li>
-                            <li>Psychotherapy - Free Association, Dream Analysis, Therapy</li>
-                            <li>Personality & Psychosexual Theory</li>
-                            <li>Theory</li></ul>
+                                <ol><li>Talking Therapy (Anna O)</li>
+                                <li>Free Association</li>
+                                <li>Dream Analysis</li>
+                                </ol>
+                            <li>Instincts (add doc)</li>
+                                <ol><li>Life Instinct: Eros</li>
+                                <li>Death Instinct: Thanatos</li>
+                                <li>Dream Analysis</li>
+                                </ol>
+                            <li>Personality Structure</li>
+                                <ol><li>Conscious, Pre-Conscious, Unconscious (add doc)</li>
+                                <li>ID, Ego, SuperEgo</li></ol>
+                            <li>Psychosexual Stages (add doc)</li>
+                                    <ol><li>Oral (0-18 mnths)</li>
+                                        <li>Anal (18-36 mnths)</li>
+                                        <li>Phallic (3-6 yrs)</li>
+                                        <ol><li>Oedipus Complex</li>
+                                            <li>Electra Complex</li></ol>
+                                        <li>Latent (6-12 yrs)</li>
+                                        <li>Genital </li>
+                                    </ol>
+
+                    </ol>
+                            
+                    <p> 
                             
                         Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria</i></b>.
                     <a href="/Wundt" > Anna O </a> ,{/*Add doc on Anna O */}
