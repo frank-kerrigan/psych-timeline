@@ -6,16 +6,16 @@ export const Iceberg = () => {
         fontWeight: 'bold',
         margin: '20px',
         padding: '20px',
-        background: 'lightgray',
+        background: '#ccccff',
         minHeight: '100%'
     };
     return (
         <main style={style}>
             
             <a href="/" >Back</a>
-            <h2> to the App</h2>
+            <h2> Freud's Iceberg Analogy</h2>
            
-            <p>This is a simple React page example.</p>
+            <p>This demonstrates Freuds concept of Personality.</p>
             <img src={require('../../src/Images/freud_iceberg.jpg')} />
             <p></p>
         </main>
