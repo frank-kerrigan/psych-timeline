@@ -238,9 +238,10 @@ export const Timeline = () => {
                         <a href="/Wundt" > Dreams </a><br></br> {/*Add doc on dream analysis */}
                         
                         Freud developed the Iceberg analogy to explain the personality.
-                        <a href="../Images/freud_iceberg.jpg" > Iceberg</a> {/*Add doc on Psychoanalysis*/}
+                        <a href="/Iceberg" >  {/*Add  link to Iceberg Image*/}
                         <img src={require('../../src/Images/freud_iceberg.jpg')} 
-                            style={{ width: '75px', height: '75px'}}/>  <br></br>Personality consists of: <b>ID, Ego, and SuperEgo</b>
+                            style={{ width: '75px', height: '75px'}}/> </a> 
+                            <br></br>Personality consists of: <b>ID, Ego, and SuperEgo</b>
                             <a href="/Wundt" > Personality Doc </a><br></br> {/*Add doc on Personality Theory */}
                            Psychosexual Theory: Explain Personality<br></br> 
                            <a href="/Wundt" > Psychosexual Theory Doc </a><br></br> {/*Add doc on dream analysis */}{/*Add doc on Psychosexual Theory */}
